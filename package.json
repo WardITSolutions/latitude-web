@@ -11,6 +11,7 @@
     "dev": "next dev",
     "prebuild": "npm run gallery:manifest && node scripts/check-env.mjs",
     "build": "next build",
+    "build:cloudflare": "opennextjs-cloudflare build",
     "start": "next start",
     "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
     "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
